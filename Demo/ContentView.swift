@@ -23,7 +23,7 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                         )
                     
-                    Text("Bana AlShabib")
+                    Text("Hajar Alshehri")
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(.pink)
