@@ -28,7 +28,7 @@ struct ContentView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.pink)
                         
-            Text("a computer science senior 👩🏻‍🎓")
+            Text("a computer science senior ")
                 .font(.title2)
                 .fontWeight(.bold)
                 .padding()
