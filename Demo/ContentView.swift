@@ -10,14 +10,47 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+                    Circle()
+                        .fill(Color.pink)
+                        .frame(width: 200, height: 200)
+                        .overlay(
+                            Image("Image")
+                                .resizable()
+                                .cornerRadius(100)
+                                
+                                .frame(width: 190, height: 190)
+                                
+                                .foregroundColor(.white)
+                        )
+                    
+                    Text("Bana AlShabib")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.pink)
+                        
+            Text("a computer science senior 👩🏻‍🎓")
+                .font(.title2)
+                .fontWeight(.bold)
+                .padding()
+                }
+            }
         }
-        .padding()
-    }
-}
+
+            
+           
+            
+        
+       
+
+    
+    
+                
+       
+        
+       
+       
+        
+    
 
 #Preview {
     ContentView()
